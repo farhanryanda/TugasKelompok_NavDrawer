@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_kontak"
+            android:icon="@drawable/ic_kontak"
+            android:title="Kontak" />
+        <item
+            android:id="@+id/nav_panggilan"
+            android:icon="@drawable/ic_panggilan"
+            android:title="Panggilan" />
+
+        <item
+            android:id="@+id/nav_pengaturan"
+            android:icon="@drawable/ic_settings"
+            android:title="Pengaturan" />
+    </group>
+
+    <item android:title="Fitur">
+        <menu>
+            <item
+                android:id="@+id/nav_undang_teman"
+                android:icon="@drawable/ic_undang_teman"
+                android:title="Undang Teman" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help"
+                android:title="Help" />
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+
+    <fragment
+        android:id="@+id/nav_undang_teman"
+        android:name="com.farhanryanda.tugaskelompok_navdrawer.UndangTemanFragment"
+        android:label="Undang Teman"
+        tools:layout="@layout/fragment_undang_teman" />
+    <fragment
+        android:id="@+id/nav_pengaturan"
+        android:name="com.farhanryanda.tugaskelompok_navdrawer.PengaturanFragment"
+        android:label="Pengaturan"
+        tools:layout="@layout/fragment_pengaturan" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.farhanryanda.tugaskelompok_navdrawer.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.farhanryanda.tugaskelompok_navdrawer.HelpFragment"
+        android:label="Help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/nav_kontak"
+        android:name="com.farhanryanda.tugaskelompok_navdrawer.KontakFragment"
+        android:label="Kontak"
+        tools:layout="@layout/fragment_kontak" />
+    <fragment
+        android:id="@+id/nav_panggilan"
+        android:name="com.farhanryanda.tugaskelompok_navdrawer.PanggilanFragment"
+        android:label="Panggilan"
+        tools:layout="@layout/fragment_panggilan" />
+</navigation>
